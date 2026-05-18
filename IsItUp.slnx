@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/IsItUp.Api/IsItUp.Api.csproj" />
+    <Project Path="src/IsItUp.Application/IsItUp.Application.csproj" />
+    <Project Path="src/IsItUp.Domain/IsItUp.Domain.csproj" />
+    <Project Path="src/IsItUp.Infrastructure/IsItUp.Infrastructure.csproj" />
+    <Project Path="src/IsItUp.Mediator/IsItUp.Mediator.csproj" />
+    <Project Path="src/IsItUp.Web.Blazor/IsItUp.Web.Blazor.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/IsItUp.Integration.Tests/IsItUp.Integration.Tests.csproj" />
+    <Project Path="tests/IsItUp.Unit.Tests/IsItUp.Unit.Tests.csproj" />
+  </Folder>
+</Solution>
