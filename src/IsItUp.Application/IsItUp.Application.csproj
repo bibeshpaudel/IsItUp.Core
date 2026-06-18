@@ -2,6 +2,21 @@
 
   <ItemGroup>
     <ProjectReference Include="..\IsItUp.Domain\IsItUp.Domain.csproj" />
+    <ProjectReference Include="..\IsItUp.Mediator\IsItUp.Mediator.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Auth\Commands\" />
+    <Folder Include="Auth\Queries\" />
+    <Folder Include="Roles\Commands\" />
+    <Folder Include="Roles\Queries\" />
+    <Folder Include="Users\Commands\" />
+    <Folder Include="Users\Queries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="12.1.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
   </ItemGroup>
 
   <PropertyGroup>

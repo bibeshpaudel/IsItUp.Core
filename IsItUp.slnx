@@ -2,6 +2,7 @@
   <Folder Name="/src/">
     <Project Path="src/IsItUp.Api/IsItUp.Api.csproj" />
     <Project Path="src/IsItUp.Application/IsItUp.Application.csproj" />
+    <Project Path="src/IsItUp.Contracts/IsItUp.Contracts.csproj" />
     <Project Path="src/IsItUp.Domain/IsItUp.Domain.csproj" />
     <Project Path="src/IsItUp.Infrastructure/IsItUp.Infrastructure.csproj" />
     <Project Path="src/IsItUp.Mediator/IsItUp.Mediator.csproj" />
